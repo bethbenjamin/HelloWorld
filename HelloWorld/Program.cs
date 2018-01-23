@@ -138,146 +138,236 @@ namespace HelloWorld
 
             // Part 12 IF ELSE statements
 
-            Console.WriteLine("What is your rank soldier?");
-            string rank = Console.ReadLine();
+            //Console.WriteLine("What is your rank soldier?");
+            //string rank = Console.ReadLine();
 
-            Console.WriteLine("What is your age soldier?");
-            int age = int.Parse(Console.ReadLine());
+            //Console.WriteLine("What is your age soldier?");
+            //int age = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("what is your job soldier?");
-            string job = Console.ReadLine();
+            //Console.WriteLine("what is your job soldier?");
+            //string job = Console.ReadLine();
 
-            //if statement reads if the rank of the officer is officer OR you are greater or equal to age 26 then return the statement
-            if ((rank == "officer") || (age <= 26))
+            ////if statement reads if the rank of the officer is officer OR you are greater or equal to age 26 then return the statement
+            //if ((rank == "officer") || (age <= 26))
+            //{
+            //    Console.WriteLine("get your gear, kiss your family goodbye, put on your marching boots.");
+            //}
+
+            ////Else if statement reads If the results are true, the THEN instructions are taken; if not, the ELSE instructions are taken. 
+
+            //// ask PETE // how did we get this to return this statement
+            //else if ((job == "cook") && (age >= 26))
+            //{
+            //    Console.WriteLine("My army has to eat. Pack your pots and pans");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("sorry you are staying at home");
+            //}
+
+            //string input = Console.ReadLine().ToLower();  //take input to user and set it to uppercase
+
+
+            //string transportation = "";
+            //string input = Console.ReadLine().ToUpper();
+            //switch (input)
+            //{
+            //    case "help":
+            //        Console.Write("Here are the weapons you can carry");
+            //        Console.Write("Sword");
+            //        Console.Write("Bow and arrow");
+            //        Console.Write("Knife");
+            //        Console.Write("Please choose a weapon from the menu listed above");
+            //        transportation = Console.ReadLine().ToUpper();
+            //        break;
+            //    case "red":
+            //        Console.WriteLine("You have chosen red, ");
+            //        transportation = "red car is ";
+            //        break;
+            //    case "supply":
+            //        Console.WriteLine("You will carry pots and pans");
+            //        weapon = "pots and pans";
+            //        break;
+
+            //    case "specialist":
+            //        Console.WriteLine("You will operate the catapault");
+            //        weapon = "catapault";
+            //        break;
+            //    default:
+            //        Console.WriteLine("You did not select the proper weapon");
+            //        Console.Write("Please choose a weapon");
+            //        weapon = Console.ReadLine().ToUpper();
+            //        break;
+            //}
+
+            //switch (input)
+            //{
+            //    case "help":
+            //        Console.WriteLine("help menu: explain what roygbiv is");
+            //    break;
+
+            //    case "red":
+            //        Console.WriteLine("set global variable of transportation to this location"); 
+            //    break;
+
+            //    case "orange":
+            //        Console.WriteLine("You will carry pots and pans");
+            //    break;
+
+            //    case "yellow":
+            //        Console.WriteLine("You will operate a catapult");
+            //        break;
+            //    case "green":
+            //        Console.WriteLine("set global variable of transportation to this location");
+            //        break;
+            //    case "blue":
+            //        Console.WriteLine("set global variable of transportation to this location");
+            //        break;
+            //    case "indigo":
+            //        Console.WriteLine("set global variable of transportation to this location");
+            //        break;
+            //    case "violet":
+            //        Console.WriteLine("set global variable of transportation to this location");
+            //        break;
+            //    default:
+            //        Console.WriteLine("You didn't choose help or a valid ROYGBIV color.");
+            //        break;
+            //}
+
+
+
+
+
+
+            ////1.items: cups of sugar - cups already in = result. 7 - 2 = 5
+            ////2.items: bill = 13 * 4.  13 * 4 = 52
+            ////3.items: diapers cost $8.00 divided by $40 = 5
+            ////4.items: wallet has $29 plus x = $41. $41 -$29 =$12 for cleaning attic
+
+            //// 5.items: miles more than pranav. 47 - 30 = 17
+
+            //// 6.items: envelopes = $3 / $12
+
+            //// 7.items: salad plus $27.10 = 33.22.  5.12 + 27.10 = 33.22
+
+
+            //// int total;
+            ////double norachi = 27.10;
+            ////double saladcost = 5.12;
+            ////total = (7 - 2);
+            ////Console.WriteLine("1. Cups of sugar "+total);
+            ////total = (13 * 4);
+            ////Console.WriteLine("2. If each person paid $13 the bill would be  " + total);
+            ////total = (40 / 8);
+            ////Console.WriteLine("3. Packages of diapers they could buy are " +total);
+            ////total = (47 - 30);
+            ////Console.WriteLine("4. Pranav only ran " + total);
+            ////total = (12 / 3);
+            ////Console.WriteLine("5. Envelopes = " +total);
+            ////Console.WriteLine(norachi + saladcost);
+
+            //////im going to try it a different way that way seems too straight forward
+
+            ////double x = 0.00;
+            ////Console.WriteLine(x + 7 - 2);
+            ////Console.WriteLine(x + 13 * 4);
+            ////Console.WriteLine(x + 40 / 8);
+            ////Console.WriteLine(x + 41 - 29);
+            ////Console.WriteLine(x + 47 - 30);
+            ////Console.WriteLine(x + 12 / 3);
+            ////Console.WriteLine(x + 27.10 + 5.12);
+            //Part 13 WHILE LOOPING example
+
+            //string action = " "; //declared a string variale action
+            //while (action != "exit")// action is NOT equal to exit
+            //{
+            //    Console.WriteLine("What is your rank soldier?");
+            //    string rank = Console.ReadLine();
+
+            //    Console.WriteLine("What is your age soldier?");
+            //    int age = int.Parse(Console.ReadLine());
+            //    Console.WriteLine("What is your job soldier?");
+            //    string job = Console.ReadLine();
+
+            //    if ((rank == "officer") || (age <= 26))
+            //    {
+            //        Console.WriteLine("Get your gear, kiss your family goodbye, put on your marching boots.");
+            //    }
+            //    else if ((job == "cook") || (age >= 26))
+            //    {
+            //        Console.WriteLine("My army has to eat. Pack your pots and pans");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Sorry you are staying home.");
+            //    }
+            //    Console.WriteLine("Add another? Type exit to quit");
+            //    action = Console.ReadLine(); //assigning variable to action
+
+            //}
+
+            // Food List array
+            string[] foodList = new string[5]; //food list array
+            foodList[0] = "Milk";
+            foodList[1] = "Fruit";
+            foodList[2] = "Meat";
+            foodList[3] = "Wine";
+            foodList[4] = "Bread";
+            int[] foodAmount = new int[5]; //food int array
+            foodAmount[0] = 1000;
+            foodAmount[1] = 100;
+            foodAmount[2] = 2000;
+            foodAmount[3] = 10000;
+            foodAmount[4] = 1500;
+
+            // for loop example
+            for (int i = 0; i < foodAmount.Length; i++)
             {
-                Console.WriteLine("get your gear, kiss your family goodbye, put on your marching boots.");
+                Console.WriteLine("Please enter a value for " +foodList [i]);
+                foodAmount[i] = int.Parse(Console.ReadLine());
             }
 
-            //Else if statement reads If the results are true, the THEN instructions are taken; if not, the ELSE instructions are taken. 
+            //Console.WriteLine("{0}, {1}, {2}, {3}. {4}.", foodList[0], foodList[1], foodList[2], foodList[3], foodList[4]);
 
-            // ask PETE // how did we get this to return this statement
-            else if ((job == "cook") && (age >= 26))
-            {
-                Console.WriteLine("My army has to eat. Pack your pots and pans");
-            }
-            else
-            {
-                Console.WriteLine("sorry you are staying at home");
-            }
+            //Console.WriteLine("{0}, {1}, {2}, {3}. {4}.", foodAmount[0], foodAmount[1], foodAmount[2], foodAmount[3], foodAmount[4]);
+            //Console.WriteLine(foodList[0] + ": " + foodAmount[0] + ", " + foodList[1] + ": " + foodAmount[1] + ", " + foodList[2] + ": "
+            //    + foodAmount[2] + ", " + foodList[3] + ": " + foodAmount[3] + ", " + foodList[4] + ": " + foodAmount[4]);
+            //Console.WriteLine(foodList.Length);
+            //string[] elements = messageTwo.Split(' ');
+            //Console.WriteLine(elements[0]);
+            //Console.WriteLine(elements[1]);
+            //Console.WriteLine(elements[2]);
 
-            string input = Console.ReadLine().ToLower();  //take input to user and set it to uppercase
+            //    // Part 14 DO WHILE LOOP EXAMPLE
 
+            //    string action = " ";
+            //    do// tells compiler we're entering a loop and "do it once"
 
-            string transportation = "";
-            string input = Console.ReadLine().ToUpper();
-            switch (input)
-            {
-                case "help":
-                    Console.Write("Here are the weapons you can carry");
-                    Console.Write("Sword");
-                    Console.Write("Bow and arrow");
-                    Console.Write("Knife");
-                    Console.Write("Please choose a weapon from the menu listed above");
-                    transportation = Console.ReadLine().ToUpper();
-                    break;
-                case "red":
-                    Console.WriteLine("You have chosen red, ");
-                    transportation = "red car is ";
-                    break;
-                case "supply":
-                    Console.WriteLine("You will carry pots and pans");
-                    weapon = "pots and pans";
-                    break;
+            //    {
+            //        Console.WriteLine("What is your rank soldier?");
+            //        string rank = Console.ReadLine();
 
-                case "specialist":
-                    Console.WriteLine("You will operate the catapault");
-                    weapon = "catapault";
-                    break;
-                default:
-                    Console.WriteLine("You did not select the proper weapon");
-                    Console.Write("Please choose a weapon");
-                    weapon = Console.ReadLine().ToUpper();
-                    break;
-            }
+            //        Console.WriteLine("What is your age soldier?");
+            //        int age = int.Parse(Console.ReadLine());
+            //        Console.WriteLine("What is your job soldier?");
+            //        string job = Console.ReadLine();
 
-            switch (input)
-            {
-                case "help":
-                    Console.WriteLine("help menu: explain what roygbiv is");
-                break;
-
-                case "red":
-                    Console.WriteLine("set global variable of transportation to this location"); 
-                break;
-
-                case "orange":
-                    Console.WriteLine("You will carry pots and pans");
-                break;
-
-                case "yellow":
-                    Console.WriteLine("You will operate a catapult");
-                    break;
-                case "green":
-                    Console.WriteLine("set global variable of transportation to this location");
-                    break;
-                case "blue":
-                    Console.WriteLine("set global variable of transportation to this location");
-                    break;
-                case "indigo":
-                    Console.WriteLine("set global variable of transportation to this location");
-                    break;
-                case "violet":
-                    Console.WriteLine("set global variable of transportation to this location");
-                    break;
-                default:
-                    Console.WriteLine("You didn't choose help or a valid ROYGBIV color.");
-                    break;
-            }
-
-
-
-
-
-
-            //1.items: cups of sugar - cups already in = result. 7 - 2 = 5
-            //2.items: bill = 13 * 4.  13 * 4 = 52
-            //3.items: diapers cost $8.00 divided by $40 = 5
-            //4.items: wallet has $29 plus x = $41. $41 -$29 =$12 for cleaning attic
-
-            // 5.items: miles more than pranav. 47 - 30 = 17
-
-            // 6.items: envelopes = $3 / $12
-
-            // 7.items: salad plus $27.10 = 33.22.  5.12 + 27.10 = 33.22
-
-
-            // int total;
-            //double norachi = 27.10;
-            //double saladcost = 5.12;
-            //total = (7 - 2);
-            //Console.WriteLine("1. Cups of sugar "+total);
-            //total = (13 * 4);
-            //Console.WriteLine("2. If each person paid $13 the bill would be  " + total);
-            //total = (40 / 8);
-            //Console.WriteLine("3. Packages of diapers they could buy are " +total);
-            //total = (47 - 30);
-            //Console.WriteLine("4. Pranav only ran " + total);
-            //total = (12 / 3);
-            //Console.WriteLine("5. Envelopes = " +total);
-            //Console.WriteLine(norachi + saladcost);
-
-            ////im going to try it a different way that way seems too straight forward
-
-            //double x = 0.00;
-            //Console.WriteLine(x + 7 - 2);
-            //Console.WriteLine(x + 13 * 4);
-            //Console.WriteLine(x + 40 / 8);
-            //Console.WriteLine(x + 41 - 29);
-            //Console.WriteLine(x + 47 - 30);
-            //Console.WriteLine(x + 12 / 3);
-            //Console.WriteLine(x + 27.10 + 5.12);
-
-
+            //        if ((rank == "officer") || (age <= 26))
+            //        {
+            //            Console.WriteLine("Get your gear, kiss your family goodbye, put on your marching boots.");
+            //        }
+            //        else if ((job == "cook") || (age >= 26))
+            //        {
+            //            Console.WriteLine("My army has to eat. Pack your pots and pans");
+            //        }
+            //        else
+            //        {
+            //            Console.WriteLine("Sorry you are staying home.");
+            //        }
+            //        Console.WriteLine("Add another? Type exit to quit");
+            //        action = Console.ReadLine();
+            //    } while (action != "exit");
+            //}
         }
     }
 }
