@@ -306,26 +306,52 @@ namespace HelloWorld
 
             //}
 
-            // Food List array
-            string[] foodList = new string[5]; //food list array
-            foodList[0] = "Milk";
-            foodList[1] = "Fruit";
-            foodList[2] = "Meat";
-            foodList[3] = "Wine";
-            foodList[4] = "Bread";
-            int[] foodAmount = new int[5]; //food int array
-            foodAmount[0] = 1000;
-            foodAmount[1] = 100;
-            foodAmount[2] = 2000;
-            foodAmount[3] = 10000;
-            foodAmount[4] = 1500;
+            //Food List array
 
-            // for loop example
-            for (int i = 0; i < foodAmount.Length; i++)
-            {
-                Console.WriteLine("Please enter a value for " +foodList [i]);
-                foodAmount[i] = int.Parse(Console.ReadLine());
-            }
+            //string[] foodList = new string[5]; //food list array
+            //foodList[0] = "Milk";
+            //foodList[1] = "Fruit";
+            //foodList[2] = "Meat";
+            //foodList[3] = "Wine";
+            //foodList[4] = "Bread";
+            //int[] foodAmount = new int[5]; //food int array
+            //foodAmount[0] = 1000;
+            //foodAmount[1] = 100;
+            //foodAmount[2] = 2000;
+            //foodAmount[3] = 10000;
+            //foodAmount[4] = 1500;
+
+            //for loop example
+            //for (int i = 0; i < foodAmount.Length; i++)
+            //    {
+            //        Console.WriteLine("Please enter a value for " + foodList[i]);
+            //        foodAmount[i] = int.Parse(Console.ReadLine());
+            //    }
+
+
+
+            ////this is the example enoch displayed from his project -just another example of how it can be presented
+
+            //int[] numbers = new int[25]; // creating a new for loop with 25 elements
+            //for (int i = 0; i < numbers.Length; i++) //index value is zero; index value is less than numbers.length; index value incremented 
+            //{
+            //    Console.WriteLine("enter value for " + i);
+            //    numbers[i] = int.Parse(Console.ReadLine());
+            //}
+            //for (int i = 0; i < numbers.Length; i++)  // create for loop to have every other number print to console
+            //    if (i % 2 == 0) // if i has a remainder of two or equal to zero 
+            //    {
+            //        Console.WriteLine(numbers[i]);  //write numbers by if statement directly above.
+            //    }
+
+
+            //below only prints out every two lines and not automatically
+            //for (int i = 0; i < candyCost.Length; i++)
+            //{
+            //    if (i % 2 == 0 && i != 0) Console.WriteLine(); // if i modulus is remainder 2 AND i is not 0 write every second line 
+
+            //    candyCost[i] = int.Parse(Console.ReadLine()); //turning candyCost into an int at console.readline
+            //}
 
             //Console.WriteLine("{0}, {1}, {2}, {3}. {4}.", foodList[0], foodList[1], foodList[2], foodList[3], foodList[4]);
 
@@ -368,6 +394,7 @@ namespace HelloWorld
             //        action = Console.ReadLine();
             //    } while (action != "exit");
             //}
+            
         }
     }
 }
